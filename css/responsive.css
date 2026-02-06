@@ -1,0 +1,115 @@
+@media (max-width: 767px) {
+  /* global */
+  .btn {
+    padding: 9px 19px;
+    font-size: 14px;
+  }
+  .section-padding {
+    padding: 25px 0 75px;
+  }
+  .section-title {
+    margin-bottom: 15px;
+  }
+
+  /* Header Section */
+  .header-area .container .nav-links {
+    display: none;
+  }
+  .header-area .container .hamburger-menu {
+    display: block;
+  }
+  .header-area .container .hamburger-menu:hover + ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #100c0a5c;
+    backdrop-filter: blur(10px);
+  }
+  .header-area .container .nav-links li {
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .header-area .container .nav-links {
+    position: relative;
+  }
+  .header-area .container .nav-links::before {
+    content: "";
+    position: absolute;
+    border-color: transparent transparent #100c0a5c transparent;
+    border-style: solid;
+    border-width: 20px;
+    width: 0;
+    height: 0;
+    right: 70px;
+    top: -40px;
+  }
+  .header-area .container .nav-links li:hover {
+    background-color: #100c0a8d;
+  }
+
+  /* About Section */
+  .about-area .about-content .about-image {
+    max-width: 330px;
+  }
+  .about-area .about-content .about-text h2 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  .about-area .about-content .about-text p {
+    font-size: 15px;
+  }
+
+  /* Portfolio Section */
+  .portfolio-area .shuffile {
+    margin-top: 0;
+  }
+  .portfolio-area .shuffile li {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  /* FeedBack Section */
+  .feedback-area .container .feedback-card .card-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feedback-area .container .feedback-card .card-decoration {
+    display: none;
+  }
+
+  /* Form Section */
+  .contact-area form {
+    width: 90%;
+    margin: auto;
+  }
+  .contact-area form .input-group {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 991px) {
+  /* About Section */
+  .about-area .about-content {
+    flex-direction: column;
+  }
+  .about-area .about-content .about-image::before {
+    display: none;
+  }
+  .about-area .about-content .about-buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1199px) {
+  .about-area .about-content .about-image::before {
+    width: 302px;
+    height: 421px;
+    left: -30px;
+  }
+}
