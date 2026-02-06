@@ -20,7 +20,6 @@ I am **Ali Khaled**, a 20-year-old Frontend Developer based in Egypt. I speciali
 This portfolio was built using the following technologies:
 * **HTML5:** Semantic structure.
 * **CSS3:** Custom styling, Flexbox, Grid, and Animations.
-* **JavaScript & TypeScript:** For interactivity and logic.
 * **Font Awesome:** For professional icons.
 * **Google Fonts:** Specifically 'Roboto' and 'Source Sans 3'.
 
