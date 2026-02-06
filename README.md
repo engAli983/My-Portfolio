@@ -1,7 +1,10 @@
-# 🚀 Ali Khaled - Personal Portfolio
+# 🚀 My Portfolio
 
-[🔗 View Live Demo](https://engali983.github.io/My-Portfolio/)
-
+| Category | Details |
+| :--- | :--- |
+| **🌐 Live Website** | [engali983.github.io/My-Portfolio](https://engali983.github.io/My-Portfolio/) |
+| **💻 Role** | Frontend Developer |
+| **📍 Location** | Abu Kabir, Sharqia, Egypt |
 Welcome to my personal portfolio repository! This project is a modern, responsive, and high-performance website designed to showcase my skills, services, and the projects I've built as a **Frontend Developer**.
 
 ---
